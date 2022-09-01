@@ -1,0 +1,41 @@
+
+[
+	{
+		"type": "ChangeFileFolderPermission",
+		"module": "ChangeFileFolderPermission",
+		"action": "ChangeFileFolderPermission",
+		"groupTitle": "File Management",
+		"groupIcon": "fas fa-lg fa-lock",
+		"title": "Change File/Folder Permission",
+		"icon": "fad fa-lg fa-lock",
+		"dataScheme": [],
+		"dataPick": true,
+		"dataPickObject": true,
+		"properties": [
+			{
+				"group": "Change File/Folder Permission",
+				"variables": [
+					{
+						"name": "path",
+						"optionName": "path",
+						"title": "Root Path & File Name",
+						"type": "text",
+						"defaultValue": "./myfile",
+						"serverDataBindings": true,
+						"required": true
+					},
+					
+					{
+						"name": "filePerms",
+						"optionName": "filePerms",
+						"title": "File/ Folder Permission",
+						"type": "text",
+						"defaultValue": "",
+						"serverDataBindings": true,
+						"required": true
+					}
+				]
+			}
+		]
+	}
+]
